@@ -1,5 +1,5 @@
 const assertEquals = require(`./test-framework`)
-const basket = require()
+const basket = require(`./src/basket.js`)
 // a new basket starts empty 
 
 const testNewBasketStartsEmpty = () => {
@@ -14,4 +14,5 @@ const testNewBasketStartsEmpty = () => {
     console.log(`New Basket is empty ${result}`);
 }
 
-module.exports
+module.exports = basket
+module.exports = assertEquals
