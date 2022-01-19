@@ -1,7 +1,13 @@
 const {
-    testNewBasketStartsEmpty
+    testNewBasketStartsEmpty,
+    addItemToBasket,
+    removeItemFromBasketOfOne,
+    removeItemFromBasket
 } = require("./tests/basket.test")
     
     
 
-testNewBasketStartsEmpty()
+testNewBasketStartsEmpty();
+addItemToBasket();
+removeItemFromBasketOfOne();
+removeItemFromBasket();
